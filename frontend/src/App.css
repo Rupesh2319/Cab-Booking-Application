@@ -1,0 +1,199 @@
+boady{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button{
+  font-size: 20px;
+    font-weight: 500;
+    color: #007D65;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+/* a{
+  color: #007D65;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+} */
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu{
+  display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-evenly;
+}
+
+.menu li{
+  padding: 20px;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logo img{
+  width: 100px;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.banner_text h1{
+  font-size: 42px;
+    font-weight: 600;
+    color: black;
+}
+
+.banner_text h3{
+  font-size: 25px;
+  font-weight: 600;
+  color: #007D65;
+}
+
+.banner button{
+  font-size: 20px;
+    font-weight: 500;
+    color: #007D65;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.banner button:hover{
+     color: white;
+     background-color: #007D65 ;
+     cursor: pointer;
+}
+
+
+
+.banner{
+  background-image: url("C:\Users\Rupesh\Documents\web-dev\Project\online cab booking\my-app\src\Components\image\banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+/* Form Css Property */
+
+.container{
+  height: 80vh;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text{
+  color: black;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.inputs{
+  width: auto;
+  height: auto;
+  padding:30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;;
+  
+}
+
+.input{
+  color: black;
+  margin: 10px;
+  border-radius: 40px;
+  padding: 10px;
+
+}
+
+.input input{
+  font-size: 20px;
+    color: black;
+    background-color: #e8eeef;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+  
+}
+
+input::placeholder{
+  color: black;
+  
+}
+
+.submit-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.submit-container button{
+  background-color: #007D65;
+  color: white;
+
+  
+} 
+.add_form{
+  display: flex;
+}
+
+.Book_form input{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.Book_form input::placeholder{
+  color: #007D65;
+}
+
+.icon img{
+  width: 30px;
+}
+
+.book_container{
+  margin: 15px;
+}
+
+.book_container button{
+  border-radius: 5px;
+}
+
+/* .submit-container {
+  background-color: #007D65;
+} */
+
+
+
+
+
+
+
+
