@@ -1,3 +1,0 @@
-Developed a full-stack cab booking application using React.js, HTML, CSS, and JavaScript for the frontend, and Spring Boot for the backend, with MySQL as the database management system.
-Implemented CRUD functionalities allowing users to sign up/login, select starting and ending points, and choose from multiple cab types (auto, prime, sedan).
-Established communication between frontend and backend through RESTful APIs to handle booking requests and data management.
