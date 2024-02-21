@@ -29,11 +29,11 @@ export default function Admin() {
   };
 
 
- console.log(Userdata);
+//  console.log(Userdata);
   function checkUser(){
     const usercheck = Userdata.find(user => (user.name===data.username && user.password===data.password && user.role==="admin"))
     if(usercheck){
-      console.log(usercheck.id + "....");
+      // console.log(usercheck.id + "....");
         localStorage.setItem('user',JSON.stringify(data))
         localStorage.setItem('authenticate',true)
         const id = usercheck.id;

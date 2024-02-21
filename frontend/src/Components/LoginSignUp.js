@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router";
 import "../App.css";
 
 
 
 export default function LoginSignUp() {
   const baseurl = "http://localhost:8080/api/users";
-  console.log(localStorage.getItem('data') + "why ")
-
+  const navigate = useNavigate();
   const [data, setData] = useState({
     username: "",
     email: "",
@@ -34,10 +34,13 @@ export default function LoginSignUp() {
         password:data.password,
         email:data.email,
         phone:data.phone
-    }).then((response)=>console.log(response))
-//     .catch((err) => {
-//     console.log(err)
-// });
+    }).then((response)=>{
+      console.log(response)
+      navigate("/");
+    }  )
+    .catch((err) => {
+    console.log(err)
+});
     
   }
 
@@ -45,7 +48,7 @@ export default function LoginSignUp() {
   return (
     <div className="container">
       <div className="text">
-        <h1>Login or SignUp</h1>
+        <h1>SignUp</h1>
       </div>
       <div className="inputs">
         <form onSubmit={handelSubmit} >

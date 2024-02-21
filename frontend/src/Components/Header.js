@@ -7,8 +7,6 @@ import { useNavigate  } from "react-router";
 
 export default function Header(props){
     const navigate = useNavigate();
-
-    console.log(props.authenticate);
     function logoutUser() {
         localStorage.clear();
         window.location.reload();
@@ -26,7 +24,7 @@ export default function Header(props){
                 <li>About us</li>
                 <li>Service</li>
                 <li>Steps</li>
-                <li>Book Now</li>
+                <li><a href="/book">Book Now</a></li>
                 {!props.authenticate ? <li><a href="/login"><button>Login</button></a></li>
                 :<li><a href="#"><button onClick={logoutUser}>Logout</button></a></li>}
                 

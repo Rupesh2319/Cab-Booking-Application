@@ -18,15 +18,15 @@ export default function Dashboard() {
     });
   }, []);
 
-  const handleApprove = () => {
-    axios.put(`http://localhost:8080/api/book_reqs`).then((response) => {
-      console.log(response);
-    });
-  };
+  // const handleApprove = () => {
+  //   axios.put(`http://localhost:8080/api/book_reqs`).then((response) => {
+  //     console.log(response);
+  //   });
+  // };
 
-  const handleApproveClick = () => {
-    handleApprove();
-  };
+  // const handleApproveClick = () => {
+  //   handleApprove();
+  // };
 
   const details = bookData.map((item) => {
     const userName = user.find((u) => u.id === item.user_id);

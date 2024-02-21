@@ -26,7 +26,7 @@ export default function Book(prop) {
     setCab({ ...cab, cabType });
   };
 
-  console.log(cab.cabType==="Auto");
+  // console.log(cab.cabType==="Auto");
 
 
   function addBooking() {

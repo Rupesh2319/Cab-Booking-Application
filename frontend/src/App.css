@@ -112,6 +112,10 @@ a:hover{
   font-family: 'Montserrat', sans-serif;
 }
 
+a{
+  color: #007D65;
+}
+
 .inputs{
   width: auto;
   height: auto;
